@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"AmazonS3Reference"},{"p":"<Unnamed>","l":"S3RepositoryPlugin"}]

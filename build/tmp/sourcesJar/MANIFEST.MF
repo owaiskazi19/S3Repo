@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Module-Origin: unknown
+Change: unknown
+X-Compile-OpenSearch-Version: 1.2.0-SNAPSHOT
+X-Compile-Lucene-Version: 8.10.1
+X-Compile-OpenSearch-Snapshot: true
+Implementation-Title: org.example#S3Repo;1.2.0.0-SNAPSHOT
+Implementation-Version: 1.2.0.0-SNAPSHOT
+Built-Status: integration
+Built-By: kazabdu
+Built-OS: Mac OS X
+Build-Date: 2021-12-02T21:21:20.264151Z
+Gradle-Version: 6.8
+Created-By: 14.0.2+12-46 (Oracle Corporation)
+Build-Java-Version: 14
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+
