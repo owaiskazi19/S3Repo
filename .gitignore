@@ -1,0 +1,9 @@
+# gradle stuff
+.gradle/
+build/
+
+# vscode stuff
+.vscode/
+
+# osx stuff
+.DS_Store
