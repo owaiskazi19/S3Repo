@@ -4,14 +4,13 @@ import org.opensearch.gradle.info.BuildParams
 
 buildscript {
     ext {
-        opensearch_version = System.getProperty("opensearch.version", "1.2.0-SNAPSHOT")
+        opensearch_version = System.getProperty("opensearch.version", "1.3.0-SNAPSHOT")
     }
 
     repositories {
         mavenLocal()
         maven { url "https://aws.oss.sonatype.org/content/repositories/snapshots" }
         mavenCentral()
-        jcenter()
     }
 
     dependencies {
@@ -78,7 +77,6 @@ subprojects {
         mavenLocal()
         maven { url "https://aws.oss.sonatype.org/content/repositories/snapshots" }
         mavenCentral()
-        jcenter()
         maven { url "https://plugins.gradle.org/m2/" }
     }
 }

@@ -116,33 +116,33 @@ public class IndependentPlugin {
         // ----- Dependency on PluginsService ---
         //final Settings settings = pluginsService.updatedSettings();
 
-        final Setting<Boolean> NODE_DATA_SETTING = Setting.boolSetting(
-                "node.data",
-                true,
-                Setting.Property.Deprecated,
-                Setting.Property.NodeScope
-        );
+        // final Setting<Boolean> NODE_DATA_SETTING = Setting.boolSetting(
+        //         "node.data",
+        //         true,
+        //         Setting.Property.Deprecated,
+        //         Setting.Property.NodeScope
+        // );
 
-        final Setting<Boolean> NODE_MASTER_SETTING = Setting.boolSetting(
-                "node.master",
-                true,
-                Setting.Property.Deprecated,
-                Setting.Property.NodeScope
-        );
+        // final Setting<Boolean> NODE_MASTER_SETTING = Setting.boolSetting(
+        //         "node.master",
+        //         true,
+        //         Setting.Property.Deprecated,
+        //         Setting.Property.NodeScope
+        // );
 
-        final Setting<Boolean> NODE_INGEST_SETTING = Setting.boolSetting(
-                "node.ingest",
-                true,
-                Setting.Property.Deprecated,
-                Setting.Property.NodeScope
-        );
+        // final Setting<Boolean> NODE_INGEST_SETTING = Setting.boolSetting(
+        //         "node.ingest",
+        //         true,
+        //         Setting.Property.Deprecated,
+        //         Setting.Property.NodeScope
+        // );
 
-        final Setting<Boolean> NODE_REMOTE_CLUSTER_CLIENT = Setting.boolSetting(
-                "node.remote_cluster_client",
-                RemoteClusterService.ENABLE_REMOTE_CLUSTERS,
-                Setting.Property.Deprecated,
-                Setting.Property.NodeScope
-        );
+        // final Setting<Boolean> NODE_REMOTE_CLUSTER_CLIENT = Setting.boolSetting(
+        //         "node.remote_cluster_client",
+        //         RemoteClusterService.ENABLE_REMOTE_CLUSTERS,
+        //         Setting.Property.Deprecated,
+        //         Setting.Property.NodeScope
+        // );
 
 //        final List<Setting<?>> additionalSettings = new ArrayList<>();
 //        //register the node.data, node.ingest, node.master, node.remote_cluster_client settings here so we can mark them private
