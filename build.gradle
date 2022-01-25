@@ -4,7 +4,7 @@ import org.opensearch.gradle.info.BuildParams
 
 buildscript {
     ext {
-        opensearch_version = System.getProperty("opensearch.version", "1.3.0-SNAPSHOT")
+        opensearch_version = System.getProperty("opensearch.version", "2.0.0-SNAPSHOT")
     }
 
     repositories {
@@ -61,7 +61,7 @@ ext {
 
 opensearchplugin {
     description 'The S3 repository plugin adds S3 repositories'
-    classname 'S3RepositoryPlugin'
+    classname 'IndependentPlugin'
 }
 
 
